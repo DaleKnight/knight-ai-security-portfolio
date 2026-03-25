@@ -14,7 +14,8 @@ Focused on real-world risks including prompt injection, data exposure, and model
 
 - **System Prompt Conditioning & Behavioral Control**  
   Demonstrates how system-level instructions influence model output and why prompt governance is critical for secure AI deployments.  
-  👉 [View lab](./prompt-governance/)
+
+👉 [View Prompt Governance Lab →](./prompt-governance/)
   
 ---
 
