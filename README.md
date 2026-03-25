@@ -1,7 +1,5 @@
 # AI Security Engineering Portfolio
 
-# AI Security Engineering Portfolio
-
 Hands-on exploration of AI security, prompt governance, and responsible AI architecture using Azure AI services.
 
 Focused on real-world risks including prompt injection, data exposure, and model misuse.
