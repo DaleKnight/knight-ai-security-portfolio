@@ -4,6 +4,8 @@ Hands-on exploration of AI security, prompt governance, and responsible AI archi
 
 Focused on real-world risks including prompt injection, data exposure, and model misuse.
 
+Bridging cybersecurity and AI to design secure, governed, and resilient intelligent systems.
+
 ---
 
 ## 🔍 Use Cases
