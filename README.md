@@ -1,4 +1,4 @@
-# AI Portfolio
+# Knight AI Security Portfolio
 
 Hands-on exploration of AI security, prompt governance, and responsible AI architecture using Azure AI services.
 
