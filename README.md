@@ -16,7 +16,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
   Built a custom Azure-hosted RAG MVP that preserves and queries Walter Knight’s WWII memoir and related historical materials using OCR, human review, grounded retrieval, and a custom Flask UI.
 
 👉 [View WW2 Memoir RAG Project →](./ww2-memoir-rag/)
----
+
 ### 🔐 Secure RAG Implementation
 
 - **Azure AI Search + GPT-4o + Data Grounding**  
