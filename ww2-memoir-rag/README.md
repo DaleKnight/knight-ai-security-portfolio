@@ -240,7 +240,7 @@ Walter Knight’s WWII memoir and related historical materials became searchable
 
 ## Veteran Support Resource
 
-(images/veterancrisisline.png)
+(images/veteranscrisisline.png)
 
 Because this project discusses WWII service, visible and invisible wounds, PTSD, and the lasting impact of war, I want to include a support resource for veterans, service members, and their loved ones.
 
