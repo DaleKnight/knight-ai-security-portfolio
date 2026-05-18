@@ -27,7 +27,7 @@ The project focused on:
 
 ---
 
-## Header / Project Visual
+## AI-Assisted Preservation Theme
 
 ![KnightTech WW2 Memoir Header](images/knight-header-pic.png)
 
@@ -37,7 +37,7 @@ The project focused on:
 
 ![Current MVP Architecture](images/current-mvp-architecture.png)
 
-The current MVP used a single Azure App Service running a custom Flask application. The Flask app handled both the frontend UI and backend logic. User questions were submitted through the KnightTech interface and processed server-side using Azure OpenAI and Azure AI Search.
+The current MVP used a single Azure App Service to host a custom Flask application. The Flask app handled both the frontend UI and backend logic. User questions were submitted through the KnightTech interface and processed server-side using Azure OpenAI and Azure AI Search.
 
 **High-level flow:**
 
@@ -106,6 +106,7 @@ The system returned a grounded answer based on the indexed memoir and supporting
 ## OCR + Human Review Process
 
 ![OCR Biondo Article](images/knight-ocr-biondo-article.png)
+Source: Anderson Independent-Mail article by Steve Biondo, 1989.
 
 OCR was used to extract text from historical source material. Human review remained essential to validate accuracy, correct OCR issues, and ensure the preserved content remained faithful to the original material.
 
