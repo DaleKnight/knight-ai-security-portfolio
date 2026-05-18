@@ -17,6 +17,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 
 👉 [View WW2 Memoir RAG Project →](./ww2-memoir-rag/)
 
+---
 ### 🔐 Secure RAG Implementation
 
 - **Azure AI Search + GPT-4o + Data Grounding**  
