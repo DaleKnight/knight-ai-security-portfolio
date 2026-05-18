@@ -252,4 +252,4 @@ The **Veterans Crisis Line** provides free, confidential support 24/7. You do **
 
 Learn more: https://www.veteranscrisisline.net/
 
-This project is about preservation, legacy, and honoring those who served. If this work reaches even one person who needs support, then including this resource matters.
+This project is about preservation, legacy, and honoring those who served. If this work reaches even one person who needs support, including this resource matters.
