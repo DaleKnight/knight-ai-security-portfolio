@@ -235,3 +235,19 @@ It was about using OCR, human review, and grounded AI retrieval to help preserve
 Walter Knight’s WWII memoir and related historical materials became searchable, accessible, and easier to share with future generations.
 
 **Technology matters most when it helps preserve what makes us human.**
+
+---
+
+## Veteran Support Resource
+
+Because this project discusses WWII service, visible and invisible wounds, PTSD, and the lasting impact of war, I want to include a support resource for veterans, service members, and their loved ones.
+
+The **Veterans Crisis Line** provides free, confidential support 24/7. You do **not** have to be enrolled in VA benefits or VA health care to connect. :contentReference[oaicite:0]{index=0}
+
+- **Dial 988 then Press 1**
+- **Text 838255**
+- **Chat online through the Veterans Crisis Line website**
+
+Learn more: https://www.veteranscrisisline.net/
+
+This project is about preservation, legacy, and honoring those who served. If this work reaches even one person who needs support, then including this resource matters.
