@@ -4,7 +4,7 @@
 
 AI-assisted historical preservation using OCR, human review, Azure AI Search, Azure OpenAI, and a custom Azure-hosted Flask UI.
 
-This project is a working MVP that uses Retrieval-Augmented Generation (RAG) to preserve and query the WWII memoir and related historical materials of Walter Knight. The goal was not to build another generic chatbot, but to use AI to help preserve a family story, historical context, and personal legacy through grounded retrieval.
+This project is a working MVP that uses Retrieval-Augmented Generation (RAG) to preserve and query the WWII and related historical materials of Walter Knight. The goal was not to build another generic chatbot, but to use AI to help preserve a family story, historical context, and personal legacy through grounded retrieval.
 
 ---
 
