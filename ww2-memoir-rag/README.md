@@ -242,7 +242,7 @@ Walter Knight’s WWII memoir and related historical materials became searchable
 
 ![Veterans Crisis Line](images/veteranscrisisline.png)
 
-Because this project discusses WWII service, visible and invisible wounds, PTSD, and the lasting impact of war, I want to include a support resource for veterans, service members, and their loved ones.
+Because this project discusses WWII service, seen and unseen wounds, PTSD, and the lasting impact of war, I want to include a support resource for veterans, service members, and their loved ones.
 
 The **Veterans Crisis Line** provides free, confidential support 24/7. You do **not** have to be enrolled in VA benefits or VA health care to connect. 
 
