@@ -1,6 +1,5 @@
 # KnightTech WW2 Memoir RAG
 
-> Look what AI can help preserve.
 
 AI-assisted historical preservation using OCR, human review, Azure AI Search, Azure OpenAI, and a custom Azure-hosted Flask UI.
 
