@@ -72,8 +72,6 @@ These are foundational frameworks and resources that shape secure enterprise AI 
 
 ## Microsoft Responsible AI
 
-### Responsible AI Principles
-
 Microsoft’s six Responsible AI principles:
 
 - Fairness
