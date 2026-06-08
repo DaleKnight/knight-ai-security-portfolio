@@ -114,6 +114,16 @@ Critical reading for anyone building AI systems securely.
 
 ---
 
+## MITRE ATLAS
+
+MITRE ATLAS provides a threat-informed knowledge base for understanding adversary tactics and techniques targeting AI-enabled systems.
+
+It is a strong reference for AI red teaming, prompt injection, data poisoning, model misuse, data leakage, and defensive control design.
+
+👉 [MITRE ATLAS](https://atlas.mitre.org/)
+
+---
+
 ### Azure AI Security Guidance
 
 Security recommendations for deploying Azure AI services securely.
