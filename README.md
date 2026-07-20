@@ -8,7 +8,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 
 ---
 
-## 🔍 Use Cases
+## 🔍 Featured Projects
 
 ### 🛡️ KnightTech WW2 Memoir RAG — AI for Historical Preservation
 
