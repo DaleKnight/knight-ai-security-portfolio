@@ -1,4 +1,4 @@
-# 🛡️ Azure AI Foundry Guardrails
+# 🛡️ Microsoft Foundry Guardrails
 ### Applying Zero Trust Principles to Enterprise AI
 
 ![Microsoft_Foundry](https://img.shields.io/badge/Microsoft%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure)
@@ -6,19 +6,19 @@
 ![AI Security](https://img.shields.io/badge/Focus-AI%20Security-blue?style=for-the-badge)
 ![Zero Trust](https://img.shields.io/badge/Methodology-Zero%20Trust-success?style=for-the-badge)
 
-**Demonstrating how Azure AI Foundry Guardrails can be implemented and validated using Zero Trust principles.**
+**Demonstrating how Microsoft Foundry Guardrails can be implemented and validated using Zero Trust principles.**
 
 ---
 
 ## Executive Summary
 
-This repository documents the design, implementation, and validation of layered security controls for an enterprise AI assistant using Azure AI Foundry Guardrails.
+This repository documents the design, implementation, and validation of layered security controls for an enterprise AI assistant using Microsoft Foundry Guardrails.
 
 The objective was not simply to enable security features, but to verify that each control behaved as expected under representative attack scenarios. The implementation follows a Zero Trust mindset. 
 
 Never Trust. Always Verify.
 
-Security controls were configured, challenged, and documented using both the Azure AI Foundry Playground and a published Preview Web App.
+Security controls were configured, challenged, and documented using both the Microsoft Foundry Playground and a published Preview Web App.
 
 ---
 
@@ -61,7 +61,7 @@ Security controls were configured, challenged, and documented using both the Azu
 User Prompt
     │
     ▼
-Azure AI Foundry Guardrails
+Microsoft Foundry Guardrails
     │
     ├── Prompt Shields
     ├── Spotlighting
@@ -96,7 +96,7 @@ Guardrailed Response
 
 ## Notable Platform Capabilities
 
-This implementation also explored several Azure AI Foundry capabilities that provide more precise control over enterprise AI security and governance.
+This implementation also explored several Microsoft Foundry capabilities that provide more precise control over enterprise AI security and governance.
 
 | Capability | Description |
 |---|---|
@@ -120,7 +120,7 @@ Jailbreak detection and Prompt Shields were configured to identify instruction-o
 
 [![Jailbreak and indirect prompt injection configuration](images/configuration/jailbreak-indirect-prompt-injection.png)](images/configuration/jailbreak-indirect-prompt-injection.png)
 
-*Figure 2. Azure AI Foundry Guardrails configured to detect jailbreak attempts and indirect prompt injection before model execution.*
+*Figure 2. Microsoft Foundry Guardrails configured to detect jailbreak attempts and indirect prompt injection before model execution.*
 
 ---
 
@@ -251,7 +251,7 @@ Sensitive information was submitted to verify that the selected PII categories a
 
 ## Published Preview Web App Validation
 
-The protected assistant was published using the Azure AI Foundry Preview Web App to validate that guardrails remained effective outside the Playground.
+The protected assistant was published using the Microsoft Foundry Preview Web App to validate that guardrails remained effective outside the Playground.
 
 ### Initial Web App and Prompt Injection Test
 
@@ -292,10 +292,10 @@ The protected assistant was published using the Azure AI Foundry Preview Web App
 
 ## Technologies
 
-- Azure AI Foundry
-- Azure AI Foundry Guardrails
+- Microsoft Foundry
+- Microsoft Foundry Guardrails
 - Azure OpenAI GPT-5
-- Azure AI Content Safety
+- Microsoft Foundry Content Safety
 - Prompt Shields
 - Spotlighting (Preview)
 - Custom Blocklists
