@@ -26,7 +26,7 @@ Security controls were configured, challenged, and documented using both the Azu
 
 | Category | Details |
 |---|---|
-| **Platform** | Azure AI Foundry |
+| **Platform** | Microsoft Foundry |
 | **Model** | Azure OpenAI GPT-5 |
 | **Primary Focus** | Enterprise AI Security |
 | **Methodology** | Zero Trust and Defense in Depth |
@@ -39,7 +39,7 @@ Security controls were configured, challenged, and documented using both the Azu
 
 [![Microsoft Foundry Guardrails solution architecture](images/architecture/guardrails-architecture.png)](images/architecture/guardrails-architecture.png)
 
-*Figure 1. Layered Azure AI Foundry Guardrails architecture showing security controls applied before and after model interaction.*
+*Figure 1. Layered Microsoft Foundry Guardrails architecture showing security controls applied before and after model interaction.*
 
 ---
 
