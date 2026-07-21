@@ -319,4 +319,4 @@ The inclusion of **Spotlighting (Preview)** is also an important step forward. A
 
 Together, fine-grained PII controls, Spotlighting, and Task Adherence demonstrate the platform's continued movement toward more context-aware, policy-driven governance for enterprise AI workloads.
 
-> **AI is optional. Security is mandatory. Security may evolve, but it is never optional or an afterthought.**
+AI is optional. Security is mandatory. Security may evolve, but it is never optional or an afterthought.
