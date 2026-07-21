@@ -10,7 +10,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 
 ## 🔍 Featured Projects
 
-### 🛡️ Azure AI Foundry Guardrails — Applying Zero Trust to Enterprise AI
+### 🛡️ Azure AI Foundry Guardrails — Applying Zero Trust to Enterprise AI (July 2026)
 
 - **Microsoft Foundry + Azure OpenAI GPT-5 + Prompt Shields + PII Detection**
 - Implemented and validated layered security controls for jailbreak attempts, prompt injection, sensitive data exposure, custom blocklists, and unsafe content.
