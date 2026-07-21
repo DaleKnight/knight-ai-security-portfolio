@@ -10,6 +10,15 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 
 ## 🔍 Featured Projects
 
+### 🛡️ Azure AI Foundry Guardrails — Applying Zero Trust to Enterprise AI
+
+- **Microsoft Foundry + Azure OpenAI GPT-5 + Prompt Shields + PII Detection**
+- Implemented and validated layered security controls for jailbreak attempts, prompt injection, sensitive data exposure, custom blocklists, and unsafe content.
+- Applied a Zero Trust approach by testing each configured control in both the Foundry Playground and a published Preview Web App.
+- Explored capabilities including fine-grained PII controls, Spotlighting *(Preview)*, intervention points, and Task Adherence *(Preview)*.
+
+👉 [View Azure AI Foundry Guardrails Project →](./guardrails-v2/)
+
 ### 🛡️ KnightTech WW2 Memoir RAG — AI for Historical Preservation
 
 - **Azure App Service + Azure OpenAI + Azure AI Search + Blob Storage**
