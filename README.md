@@ -17,7 +17,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 - Applied a Zero Trust approach by testing each configured control in both the Foundry Playground and a published Preview Web App.
 - Explored capabilities including fine-grained PII controls, Spotlighting *(Preview)*, intervention points, and Task Adherence *(Preview)*.
 
-👉 [View Azure AI Foundry Guardrails Project →](./guardrails-v2/)
+👉 [View Microsoft Foundry Guardrails Project →](./guardrails-v2/)
 
 ### 🛡️ KnightTech WW2 Memoir RAG — AI for Historical Preservation
 
