@@ -1,7 +1,7 @@
 # 🛡️ Azure AI Foundry Guardrails
 ### Applying Zero Trust Principles to Enterprise AI
 
-![Azure AI Foundry](https://img.shields.io/badge/Azure%20AI-Foundry-0078D4?style=for-the-badge&logo=microsoftazure)
+![Microsoft_Foundry](https://img.shields.io/badge/Azure%20AI-Foundry-0078D4?style=for-the-badge&logo=microsoftazure)
 ![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-GPT--5-10A37F?style=for-the-badge)
 ![AI Security](https://img.shields.io/badge/Focus-AI%20Security-blue?style=for-the-badge)
 ![Zero Trust](https://img.shields.io/badge/Methodology-Zero%20Trust-success?style=for-the-badge)
