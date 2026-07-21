@@ -110,9 +110,9 @@ This implementation also explored several Microsoft Foundry capabilities that pr
 
 ## Security Implementation
 
-> **🛡️ Zero Trust**
->
-> Security controls were not considered effective simply because they were enabled. Each implemented control was intentionally tested to confirm expected behavior.
+🛡️ Zero Trust
+
+Security controls were not considered effective simply because they were enabled. Each implemented control was intentionally tested to confirm expected behavior.
 
 ### Jailbreak Detection and Prompt Injection
 
