@@ -14,9 +14,9 @@
 
 This repository documents the design, implementation, and validation of layered security controls for an enterprise AI assistant using Azure AI Foundry Guardrails.
 
-The objective was not simply to enable security features, but to verify that each control behaved as expected under representative attack scenarios. The implementation follows a Zero Trust mindset:
+The objective was not simply to enable security features, but to verify that each control behaved as expected under representative attack scenarios. The implementation follows a Zero Trust mindset. 
 
-<b>**Never Trust. Always Verify.**</b>
+Never Trust. Always Verify.
 
 Security controls were configured, challenged, and documented using both the Azure AI Foundry Playground and a published Preview Web App.
 
@@ -37,7 +37,7 @@ Security controls were configured, challenged, and documented using both the Azu
 
 ## Solution Architecture
 
-[![Azure AI Foundry Guardrails solution architecture](images/architecture/guardrails-architecture.png)](images/architecture/guardrails-architecture.png)
+[![Microsoft Foundry Guardrails solution architecture](images/architecture/guardrails-architecture.png)](images/architecture/guardrails-architecture.png)
 
 *Figure 1. Layered Azure AI Foundry Guardrails architecture showing security controls applied before and after model interaction.*
 
