@@ -16,7 +16,7 @@ This repository documents the design, implementation, and validation of layered 
 
 The objective was not simply to enable security features, but to verify that each control behaved as expected under representative attack scenarios. The implementation follows a Zero Trust mindset:
 
-**Never Trust. Always Verify.**
+<b>**Never Trust. Always Verify.**</b>
 
 Security controls were configured, challenged, and documented using both the Azure AI Foundry Playground and a published Preview Web App.
 
