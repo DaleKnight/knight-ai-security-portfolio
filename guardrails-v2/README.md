@@ -178,9 +178,9 @@ This control was reviewed but intentionally not enabled because the project does
 
 ## Validation Methodology
 
-> **🔬 Validation**
->
-> Security was treated as a verification process rather than a configuration exercise. Each control was tested using representative prompts designed to confirm both allowed and blocked behavior.
+🔬 Validation
+
+Security was treated as a verification process rather than a configuration exercise. Each control was tested using representative prompts designed to confirm both allowed and blocked behavior.
 
 Validation included:
 
@@ -275,9 +275,9 @@ The protected assistant was published using the Microsoft Foundry Preview Web Ap
 
 ## Design Decisions
 
-> **🏗️ Design Principle**
->
-> Security capabilities should be selected because they align with the application's architecture and risk model—not simply because they are available.
+🏗️ Design Principle
+
+Security capabilities should be selected because they align with the application's architecture and risk model—not simply because they are available.
 
 | Design Decision | Why It Matters |
 |---|---|
@@ -315,7 +315,7 @@ One of the most notable aspects of this implementation was the increased granula
 
 The inclusion of **Spotlighting (Preview)** is also an important step forward. As enterprise AI systems increasingly process retrieved documents and external content, the ability to distinguish trusted instructions from untrusted data can strengthen defenses against indirect prompt injection.
 
-**Task Adherence (Preview)** is another valuable capability, particularly for agentic systems that perform multi-step tasks or invoke tools. Although it was intentionally not enabled for this project, reviewing the feature reinforced an important architectural principle: a security control should be used when it aligns with the application's design and risk model—not simply because it exists.
+**Task Adherence (Preview)** is another valuable capability, particularly for agentic systems that perform multi-step tasks or invoke tools. Although it was intentionally not enabled for this project, reviewing the feature reinforced an important architectural principle: a security control should be used when it aligns with the application's design and risk model, not simply because it exists.
 
 Together, fine-grained PII controls, Spotlighting, and Task Adherence demonstrate the platform's continued movement toward more context-aware, policy-driven governance for enterprise AI workloads.
 
