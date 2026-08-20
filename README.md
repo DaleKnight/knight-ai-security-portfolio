@@ -16,7 +16,7 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 * Built and tested MCP-enabled agent workflows involving **tool integration, language agents, and Azure Speech services**.
 * Examined MCP architecture through an **AI security and governance lens**, including tool trust, permissions, data exposure, and agent-to-service communication.
 
-👉 [View MCP Agent Projects & Lab Breakdown →](YOUR-MCP-PAGE-LINK)
+👉 [View MCP Agent Projects & Lab Breakdown →](./mcp/)
 
 ### 🛡️ Microsoft Foundry Guardrails — Applying Zero Trust to Enterprise AI
 
