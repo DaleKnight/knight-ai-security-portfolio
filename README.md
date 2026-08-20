@@ -10,6 +10,14 @@ Focused on real-world risks including prompt injection, data exposure, hallucina
 
 ## 🔍 Featured Projects
 
+### 🔌 Model Context Protocol (MCP) — Building Tool-Enabled AI Agents
+
+* Hands-on exploration of **Model Context Protocol (MCP)** using Microsoft Foundry, Azure AI Services, Python, and Visual Studio Code.
+* Built and tested MCP-enabled agent workflows involving **tool integration, language agents, and Azure Speech services**.
+* Examined MCP architecture through an **AI security and governance lens**, including tool trust, permissions, data exposure, and agent-to-service communication.
+
+👉 [View MCP Agent Projects & Lab Breakdown →](YOUR-MCP-PAGE-LINK)
+
 ### 🛡️ Microsoft Foundry Guardrails — Applying Zero Trust to Enterprise AI
 
 - **Microsoft Foundry + Azure OpenAI GPT-5 + Prompt Shields + PII Detection**
