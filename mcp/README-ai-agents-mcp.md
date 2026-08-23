@@ -281,5 +281,18 @@ No dedicated Microsoft Foundry guardrail layer, prompt-injection control, or des
 
 ## 11. Reference
 
-**Microsoft Learn — Integrate MCP Tools with Azure AI Agents**  
-[Extend agents with Model Context Protocol (MCP) tools](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/03-mcp-integration.html)
+- [Microsoft Learn — Connect an agent to Model Context Protocol (MCP) tools](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/)
+- [Microsoft Learn — Exercise](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/5-exercise)
+- [Microsoft Learning Lab Flow — Extend agents with Model Context Protocol (MCP) tools](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/03-mcp-integration.html)
+
+---
+
+**Project Status:** ✅ Complete
+
+---
+
+### Attribution
+
+This project was completed using learning materials and lab instructions provided by **Microsoft Learn**. The implementation, validation, screenshots, documentation, and security observations presented in this portfolio reflect my hands-on execution and analysis of the exercise.
+
+Microsoft product names and trademarks are the property of Microsoft Corporation. This portfolio is independently maintained and is not affiliated with or endorsed by Microsoft.
