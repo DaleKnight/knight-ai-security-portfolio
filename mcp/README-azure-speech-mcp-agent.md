@@ -48,13 +48,13 @@ The client invokes the **Foundry agent**, not Azure Speech directly. MCP provide
 
 The agent was configured with the **Azure Speech MCP Server** as an external capability.
 
-![Azure Speech MCP tool](screenshots/03-azure-speech-mcp-tool-selection.png)
+![Azure Speech MCP tool](images/azure-speech-mcp-agent/03-azure-speech-mcp-tool-selection.png)
 
 *Azure Speech MCP Server added as an agent tool.*
 
 Text-to-speech testing confirmed successful MCP tool selection, approval, and execution.
 
-![MCP text-to-speech invocation](screenshots/04-mcp-text-to-speech-invocation.png)
+![MCP text-to-speech invocation](images/azure-speech-mcp-agent/04-mcp-text-to-speech-invocation.png)
 
 *Successful `text_to_speech` invocation. Sensitive SAS data was removed before publication.*
 
@@ -83,7 +83,7 @@ response = openai_client.responses.create(
 )
 ```
 
-![Python Foundry agent client](screenshots/06-python-foundry-agent-client.png)
+![Python Foundry agent client](images/azure-speech-mcp-agent/06-python-foundry-agent-client.png)
 
 *Python client using Azure identity and an agent reference.*
 
@@ -100,7 +100,7 @@ response = openai_client.responses.create(
 | Blob audio output | ✅ Passed |
 | Guardrail enforcement | ✅ Observed |
 
-![Python STT client success](screenshots/07-python-stt-client-success.png)
+![Python STT client success](images/azure-speech-mcp-agent/07-python-stt-client-success.png)
 
 *Successful end-to-end speech transcription through the Python client.*
 
@@ -110,7 +110,7 @@ response = openai_client.responses.create(
 
 During repeated STT testing, the Azure Speech MCP tool successfully returned the expected transcription, but a downstream **Microsoft Foundry guardrail** subsequently blocked the agent interaction.
 
-![STT guardrail observation](screenshots/05-stt-guardrail-security-observation.png)
+![STT guardrail observation](images/azure-speech-mcp-agent/05-stt-guardrail-security-observation.png)
 
 *Successful MCP speech transcription followed by Foundry guardrail enforcement.*
 
@@ -137,13 +137,13 @@ For production use, I would also evaluate managed identity, centralized secret s
 
 ### Azure Blob Storage
 
-![Azure Blob Storage configuration](screenshots/01-azure-blob-storage-configuration.png)
+![Azure Blob Storage configuration](images/azure-speech-mcp-agent/01-azure-blob-storage-configuration.png)
 
 *Blob Storage configured for generated speech artifacts.*
 
 ### Foundry Speech Agent
 
-![Foundry speech agent configuration](screenshots/02-foundry-speech-agent-configuration.png)
+![Foundry speech agent configuration](images/azure-speech-mcp-agent/02-foundry-speech-agent-configuration.png)
 
 *Speech agent configured in Microsoft Foundry.*
 
