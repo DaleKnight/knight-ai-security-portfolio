@@ -196,8 +196,13 @@ The Azure Language MCP server exposed more capabilities than were required for t
 - [Microsoft Learn — Develop a text analysis agent with the Azure Language MCP server](https://learn.microsoft.com/en-us/training/modules/develop-text-analysis-agent-language-mcp/)
 - [Microsoft Learn — Exercise](https://learn.microsoft.com/en-us/training/modules/develop-text-analysis-agent-language-mcp/04-exercise)
 - [Microsoft Learning Lab Flow — Develop a Text Analysis Agent](https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/02-language-agent.html)
-- [MicrosoftLearning/mslearn-ai-language](https://github.com/MicrosoftLearning/mslearn-ai-language)
-
+  
 ---
 
 **Project Status:** ✅ Complete
+
+Attribution
+
+This project was completed using learning materials and lab instructions provided by Microsoft Learn. The implementation, validation, screenshots, documentation, and security observations presented in this portfolio reflect my hands-on execution and analysis of the exercise.
+
+Microsoft product names and trademarks are the property of Microsoft Corporation. This portfolio is independently maintained and is not affiliated with or endorsed by Microsoft.
