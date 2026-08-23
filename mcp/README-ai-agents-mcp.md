@@ -25,7 +25,7 @@ This project implements Model Context Protocol (MCP) tool integration for a Micr
 
 The implementation validated tool connectivity, dynamic discovery, tool invocation, and multi-tool reasoning. The security review focused on **identity, tool trust, approval semantics, least-functionality, data access, and agent policy reliability**.
 
-<img src="images/01-foundry-model-deployment.png" alt="Microsoft Foundry model deployment" width="900">
+<img src="images/ai-agents-mcp/01-foundry-model-deployment.png" alt="Microsoft Foundry model deployment" width="900">
 
 *Foundry model deployment confirmed before MCP integration testing.*
 
@@ -94,7 +94,7 @@ mcp_tool = MCPTool(
 )
 ```
 
-<img src="images/02-remote-mcp-agent-configuration.png" alt="Remote MCP agent configuration" width="900">
+<img src="images/ai-agents-mcp/02-remote-mcp-agent-configuration.png" alt="Remote MCP agent configuration" width="900">
 
 *Remote MCP tool configuration and agent integration.*
 
@@ -107,7 +107,7 @@ A local FastMCP server named `Inventory` exposed two narrowly scoped tools:
 
 Both tools were **read-only, parameterless functions** returning synthetic business data. No MCP resources or prompt templates were implemented in this lab.
 
-<img src="images/04-custom-fastmcp-server.png" alt="Custom FastMCP inventory server" width="900">
+<img src="images/ai-agents-mcp/04-custom-fastmcp-server.png" alt="Custom FastMCP inventory server" width="900">
 
 *Custom FastMCP server exposing two business-specific tools.*
 
@@ -128,7 +128,7 @@ Key implementation points:
 
 The function schema was configured as a strict empty object because the two tools accept no arguments.
 
-<img src="images/05-mcp-client-tool-discovery.png" alt="MCP client tool discovery" width="900">
+<img src="images/ai-agents-mcp/05-mcp-client-tool-discovery.png" alt="MCP client tool discovery" width="900">
 
 *Client initialization and dynamic MCP tool discovery.*
 
@@ -146,13 +146,13 @@ The function schema was configured as a strict empty object because the two tool
 
 ### Remote MCP Validation
 
-<img src="images/03-remote-mcp-validation.png" alt="Remote MCP validation" width="900">
+<img src="images/ai-agents-mcp/03-remote-mcp-validation.png" alt="Remote MCP validation" width="900">
 
 *Remote MCP-backed response successfully returned.*
 
 ### Inventory Tool Validation
 
-<img src="images/06-inventory-tool-validation.png" alt="Inventory tool validation" width="900">
+<img src="images/ai-agents-mcp/06-inventory-tool-validation.png" alt="Inventory tool validation" width="900">
 
 *Client discovered both MCP tools and successfully retrieved inventory data.*
 
@@ -164,7 +164,7 @@ The agent correctly identified:
 - Shampoo — inventory 8, weekly sales 18
 - Skin Serum — inventory 9, weekly sales 19
 
-<img src="images/07-multi-tool-restock-validation.png" alt="Multi-tool restock validation" width="900">
+<img src="images/ai-agents-mcp/07-multi-tool-restock-validation.png" alt="Multi-tool restock validation" width="900">
 
 *Inventory and sales data were combined to apply the configured restock rule.*
 
@@ -189,7 +189,7 @@ The expected clearance candidates were:
 
 Instead, the agent returned the previously identified restock products.
 
-<img src="images/08-agent-policy-drift-negative-test.png" alt="Agent policy drift negative test" width="900">
+<img src="images/ai-agents-mcp/08-agent-policy-drift-negative-test.png" alt="Agent policy drift negative test" width="900">
 
 *Negative test showing incorrect policy application despite successful MCP tool access.*
 
