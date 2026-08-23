@@ -40,7 +40,7 @@ flowchart LR
 
 The primary trust boundaries are **client-to-Foundry**, **agent-to-MCP server**, and **MCP server-to-language capability**. Text submitted for analysis can cross these boundaries and may contain sensitive information.
 
-![Azure Language remote MCP selection](images/01-azure-language-remote-mcp-selection.png)
+![Azure Language remote MCP selection](images/text-agent-mcp/01-azure-language-remote-mcp-selection.png)
 
 *Figure 1. Azure Language selected as the remote MCP capability for the Foundry agent.*
 
@@ -52,13 +52,13 @@ The **Text-Analysis-Agent** was configured to use Azure Language for text-analys
 
 The MCP integration exposed specialized capabilities including PII redaction, entity extraction, sentiment analysis, language detection, summarization, and key-phrase extraction. The agent could discover these tools and select the capabilities required for the request.
 
-![Text analysis agent MCP configuration](images/02-text-analysis-agent-mcp-configuration.png)
+![Text analysis agent MCP configuration](images/text-agent-mcp/02-text-analysis-agent-mcp-configuration.png)
 
 *Figure 2. Text-Analysis-Agent configured with the Azure Language MCP tool.*
 
 During Foundry Playground testing, an explicit approval request was observed before a PII-redaction tool call.
 
-![MCP tool approval validation](images/03-mcp-tool-approval-validation.png)
+![MCP tool approval validation](images/text-agent-mcp/03-mcp-tool-approval-validation.png)
 
 *Figure 3. MCP tool invocation presented for approval before execution.*
 
@@ -76,7 +76,7 @@ Key implementation choices:
 - `FOUNDRY_ENDPOINT` and `AGENT_NAME` were loaded from environment configuration rather than embedded directly in application logic.
 - `responses.create()` referenced the existing `Text-Analysis-Agent`, preserving the agent-to-MCP orchestration layer.
 
-![Python Foundry agent client](images/05-python-foundry-agent-client.png)
+![Python Foundry agent client](images/text-agent-mcp/05-python-foundry-agent-client.png)
 
 *Figure 4. Python client implementation used to invoke the Foundry agent.*
 
@@ -93,7 +93,7 @@ Key implementation choices:
 
 The Foundry Playground test successfully detected PII categories and returned redacted output.
 
-![PII redaction validation](images/04-pii-redaction-validation.png)
+![PII redaction validation](images/text-agent-mcp/04-pii-redaction-validation.png)
 
 *Figure 5. Successful PII detection and redaction through the Azure Language MCP integration.*
 
@@ -102,7 +102,7 @@ The final Python test asked the agent to identify entities and dates and determi
 - `extract_named_entities_from_text`
 - `detect_sentiment_from_text`
 
-![Multi-tool text analysis validation](images/06-multi-tool-text-analysis-validation.png)
+![Multi-tool text analysis validation](images/text-agent-mcp/06-multi-tool-text-analysis-validation.png)
 
 *Figure 6. End-to-end Python client validation with MCP-backed entity and sentiment analysis.*
 
