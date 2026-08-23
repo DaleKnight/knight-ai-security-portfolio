@@ -201,7 +201,9 @@ The Azure Language MCP server exposed more capabilities than were required for t
 
 **Project Status:** ✅ Complete
 
-Attribution
+---
+
+### Attribution
 
 This project was completed using learning materials and lab instructions provided by Microsoft Learn. The implementation, validation, screenshots, documentation, and security observations presented in this portfolio reflect my hands-on execution and analysis of the exercise.
 
