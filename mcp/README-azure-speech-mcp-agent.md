@@ -166,7 +166,18 @@ For production use, I would also evaluate managed identity, centralized secret s
 
 ## Reference
 
-Developed while completing Microsoft's **Develop a speech agent with the Azure Speech MCP server** module, with additional security analysis, troubleshooting, testing, and portfolio documentation.
+- [Microsoft Learn — Develop a speech agent with the Azure Speech MCP server](https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/)
+- [Microsoft Learn — Exercise](https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/04-exercise)
+- [Microsoft Learning Lab Flow — Develop a speech agent with Azure Speech MCP](https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/05-azure-speech-mcp.html)
 
-- https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/
-- https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/05-azure-speech-mcp.html
+---
+
+**Project Status:** ✅ Complete
+
+---
+
+### Attribution
+
+This project was completed using learning materials and lab instructions provided by **Microsoft Learn**. The implementation, validation, screenshots, documentation, and security observations presented in this portfolio reflect my hands-on execution and analysis of the exercise.
+
+Microsoft product names and trademarks are the property of Microsoft Corporation. This portfolio is independently maintained and is not affiliated with or endorsed by Microsoft.
